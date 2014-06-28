@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*テキスト*/ 
+.concept-text1 {
+	color:#49170c;
+	font-size:250%;
+}
+.info-text {
+	color:#49170c;
+	font-size:150%;
+	margin:10px 0 10px 10px;
+}
+/*div*/ 
+#News-wrap {
+	height:210px;
+	overflow:auto;
+}
+#Index-info {
+	margin-top:35px;
+	background: url(../images/index/bg_info.png) top center no-repeat;
+}
+#Main-visual {
+	max-width:930px;
+}
+
+/*media query（768以下）*/ 
+@media screen and (max-width : 768px){
+.concept-text1, .info-text {
+	font-size:148%;
+}
+#Index-info {
+	background: none;
+	border-top:1px solid #939393;
+	border-bottom:1px solid #939393;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+}

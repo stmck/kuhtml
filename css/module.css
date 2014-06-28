@@ -1,0 +1,122 @@
+/*
+/////////////////////////////////////
+汎用クラス
+/////////////////////////////////////
+*/
+
+/* ----- YUI FONTSIZE ---- */
+
+.text10 { font-size: 84%; }
+.text11 { font-size: 92%; }
+.text12 { font-size: 100%; }
+.text13 { font-size: 109%; }
+.text14 { font-size: 117%; }
+.text15 { font-size: 125%; }
+.text16 { font-size: 134%; }
+.text17 { font-size: 142%; }
+.text18 { font-size: 150%; }
+.text19 { font-size: 159%; }
+.text20 { font-size: 167%; }
+.text21 { font-size: 175%; }
+.text22 { font-size: 184%; }
+.text23 { font-size: 192%; }
+.text24 { font-size: 200%; }
+.text25 { font-size: 209%; }
+.text26 { font-size: 217%; }
+
+
+/*alpha*/
+.alpha:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+/*.alpha1:hover { background:url(../../images/common/nav_hover.png) repeat-x;}
+*/
+/*clearfix*/
+.cf:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.cf {
+  min-height: 1px;
+}
+
+* html .cf {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/*pankuzu*/
+#Pankuzu {
+	color:#333333;
+	width: 960px;
+	margin:10px auto 5px auto;
+}
+
+#Pankuzu a{
+	color: #333333;
+	padding: 0 0 0 10px;
+	font-size:109%;
+	text-decoration:none;
+}
+#Pankuzu a:hover{
+	color: #333333;
+}
+
+/*ETC*/
+
+.clear        {	clear: both;}
+.fl-right     { float: right; }
+.fl-left      { float: left; }
+.align-left  	{ text-align: left; }
+.align-right  { text-align: right; }
+.align-center { text-align: center; }
+.bold 				{	font-weight: bold; }
+
+/*margin*/
+.mt-10				{ margin-top: 10px; }
+.mt-15				{ margin-top: 15px; }
+.mt-20				{ margin-top: 20px !important; }
+.mt-25				{ margin-top: 25px; }
+.mt-30				{ margin-top: 30px !important; }
+.mt-35				{ margin-top: 35px; }
+.mt-40				{ margin-top: 40px; }
+.mt-45				{ margin-top: 45px; }
+.mt-50				{ margin-top: 50px; }
+
+.mr-10				{ margin-right: 10px; }
+.mr-15				{ margin-right: 15px; }
+.mr-20				{ margin-right: 20px; }
+.mr-25				{ margin-right: 25px; }
+.mr-30				{ margin-right: 30px; }
+.mr-35				{ margin-right: 35px; }
+.mr-40				{ margin-right: 40px; }
+.mr-45				{ margin-right: 45px; }
+.mr-50				{ margin-right: 50px; }
+
+.ml-10				{ margin-left: 10px; }
+.ml-15				{ margin-left: 15px; }
+.ml-20				{ margin-left: 20px; }
+.ml-25				{ margin-left: 25px; }
+.ml-30				{ margin-left: 30px; }
+.ml-35				{ margin-left: 35px; }
+.ml-40				{ margin-left: 40px; }
+.ml-45				{ margin-left: 45px; }
+.ml-50				{ margin-left: 50px; }
+
+.mb-10				{ margin-bottom: 10px; }
+.mb-15				{ margin-bottom: 15px; }
+.mb-20				{ margin-bottom: 20px; }
+.mb-25				{ margin-bottom: 25px; }
+.mb-30				{ margin-bottom: 30px; }
+.mb-35				{ margin-bottom: 35px; }
+.mb-40				{ margin-bottom: 40px; }
+.mb-45				{ margin-bottom: 45px; }
+.mb-50				{ margin-bottom: 50px; }
